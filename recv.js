@@ -241,7 +241,7 @@ async function getUserMessages(userAddress) {
     .getUserMessages(useraddress)
     .call();
 
-  console.log("Retrieved messages for user:", userMessages[0][2]);
+  console.log("Retrieved messages for user:", userMessages[userMessages.length-1][2]);
 }
 
 function getMessage() {
