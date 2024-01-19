@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Sender DApp</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Data Sender DApp</h1>
+    <form>
+        <div>
+            <label for="receiverAddress">Receiver's MetaMask Address:</label>
+            <input type="text" id="receiverAddress" />
+        </div>
+        <div>
+            <label for="dataInput">Data to Send:</label>
+            <input type="text" id="dataInput" />
+        </div>
+        <button type="button" id="sendDataButton">Send Data</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script> <!-- Include web3.js from a CDN -->
+    <script src="js/app.js"></script>
+</body>
+</html>
